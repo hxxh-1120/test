@@ -69,6 +69,10 @@ body{
 	font-size: 0.46rem;
 	color: #888;
 }
+.list-left em{
+	margin-left: 10px;
+	font-size: 0.32rem;
+}
 .list span{
 	margin-left: 10px;
 }

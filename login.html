@@ -65,7 +65,10 @@
 		document.querySelector(".qita span").onclick=document.querySelector(".login-btn").onclick=function(){
 			if(document.querySelector("[name='username']").value==1){
 				window.location.href="wdtk.html";
-			}else{
+			}else if(document.querySelector("[name='username']").value==2){
+				window.location.href="tkgl.html";
+			}
+			else{
 				window.location.href="index.html";
 			}
 		}
